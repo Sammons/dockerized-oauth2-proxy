@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "build": "docker build . -t sammons/oauth2_proxy:latest && docker push sammons/oauth2_proxy:latest"
+  }
+}
